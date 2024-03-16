@@ -2,7 +2,7 @@
 class Connect {
     protected $host = "localhost";
     protected $port = 3306;
-    protected $database = "vegan_brownies";
+    protected $database = "tokoparfume";
     protected $username = "root";
     protected $password = "";
     protected $connection;

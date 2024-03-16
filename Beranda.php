@@ -118,7 +118,7 @@ if ( !isset($_SESSION["login"]) ){
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="mobil/index.php">Mobil</a>
+                        <a class="nav-link" href="smartphone/index.php">Smartphone</a>
                     </li>
                 </ul>
                 <form class="d-flex" action="" method="post">

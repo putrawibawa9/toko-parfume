@@ -1,11 +1,11 @@
 <?php
 
-require_once 'Mobil.php';
+require_once 'Smartphone.php';
 
-$mobil = new Mobil;
-$kode_mobil = $_GET['kode_mobil'];
+$smartphone = new Smartphone;
+$kode_smartphone = $_GET['kode_smartphone'];
 
-if ($mobil->deleteMobil($kode_mobil)){
+if ($smartphone->deletesmartphone($kode_smartphone)){
     echo "<script>
             alert('data berhasil dihapus');
             document.location.href = 'index.php';
